@@ -6,28 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_secret",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getsecret",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -43,7 +24,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "MyContract"
+			"contracts/Inheritance.sol": "Ownable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -58,11 +39,11 @@
 	},
 	"sources": {
 		"contracts/Inheritance.sol": {
-			"keccak256": "0x77aea072c3294e99eee837cf9a258411ce06ed50e6856e4ff8005a4f9db73c23",
+			"keccak256": "0x9b78df92ef94640ca143e23973a581927c14fa79c860b34847b5e5dedb52028f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://158d1053a0e93b580f822a28b5245c0bd9654b74cf1657146f99bb1ff933db82",
-				"dweb:/ipfs/QmSL2LratA2VgEacJS1VXQ9JxDrdHFCrqZMr6DiMkH5f8r"
+				"bzz-raw://b8e78dd8f1a365694aba4543bc50250d722e78501032bfdf34197c888d5c3dd7",
+				"dweb:/ipfs/QmWqF7M2MYynXiJX7FZqYu5izL6PLWVgg5CXakRqLoS1vk"
 			]
 		}
 	},
